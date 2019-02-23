@@ -135,3 +135,38 @@ a.btn:active {
   background-color: #ce413f !important;
   color:#f7f7f7 !important;
 }
+
+.stan-colors {
+  background-color: #d92231 !important;
+  color: #f8f9fa !important;
+}
+
+.bootstrap-colors {
+  color: #f8f9fa !important;
+  background-color: #563d7c !important;
+}
+
+.arduino-colors {
+  color: #f8f9fa !important;
+  background-color: #00979d !important;
+}
+
+.materialize-colors {
+  color: #f8f9fa !important;
+  background-color: #ee6e73 !important;
+}
+
+.node-colors {
+  color: #f8f9fa !important;
+  background-color: #026e00 !important;
+}
+
+.jquery-colors {
+  color: #f8f9fa !important;
+  background-color: #0769ad !important;
+}
+
+.javascript-colors {
+  color: #313d38 !important;
+  background-color: #e5bb31 !important;
+}
