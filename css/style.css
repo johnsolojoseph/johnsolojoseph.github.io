@@ -219,7 +219,7 @@ h6.list:hover {
 }
 
 .nav-list {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .pad-bottom {
