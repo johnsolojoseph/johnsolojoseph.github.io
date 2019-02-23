@@ -1,20 +1,20 @@
-# johnsolojoseph.github.io :computer: :heart_eyes: :heartpulse:
+# johnsolojoseph.github.io :computer: :heartpulse:
 A portfolio showcasing my programming projects and experience in one single page.
 
 Check it out here [Portfolio](https://johnsolojoseph.github.io)!
 <br />
 <br />
 
-
+## Screenshot of Web App
 ![Portfolio](assets/landing.png)
 
 <br />
 
 ## Technologies Used
 
-          - Header section made with [Particle.js](https://vincentgarreau.com/particles.js/)
-          - CSS Framework [Materialize](https://materializecss.com/)
-          - Icons [Font Awesome](https://fontawesome.com/icons)
+- Header section made with [Particle.js](https://vincentgarreau.com/particles.js/)
+- CSS Framework [Materialize](https://materializecss.com/)
+- Icons [Font Awesome](https://fontawesome.com/icons)
 
 <br />
 <br />
@@ -28,4 +28,5 @@ Check it out here [Portfolio](https://johnsolojoseph.github.io)!
 <br />
 <br />
 
+## Note
 Feel free to use my code for your own portfolio!
