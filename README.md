@@ -26,7 +26,7 @@ Check it out [here](https://johnsolojoseph.github.io)!
 - Add more pictures and experience on About section
 
 <br />
-<br />
+
 
 ## Note
 Feel free to use my code for your own portfolio!
