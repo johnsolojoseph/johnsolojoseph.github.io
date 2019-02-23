@@ -6,160 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   <title>John Solo</title>
 
-  <!--Font awesome icon -->
-
-
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
-
-
-  <!--Favicon Image -->
-  <!--Style-->
-  <style>
-    #header {
-  position:absolute;
-
-  z-index: 998;
-  left: 0;
-right: 0;
-margin: 0 auto;
-padding-top: 2%;
-
-
-
-}
-
-
-
-  blockquote{
-  margin: 20px 0;
-  padding-left: 1.5rem;
-  border-left: 5px solid #64b5f6;
-  }
-  .pad-bottom {
-    padding-bottom:5%;
-  }
-
-  /* label focus color */
-    .input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
-     color: #2d3e50 !important;
-    }
-
-/* label underline focus color */
-    .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
-     border-bottom: 1px solid #2d3e50 !important;
-     box-shadow: 0 1px 0 0 #2d3e50 !important;
-    }
-
-    .input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
-     color: #2d3e50 !important;
-    }
-
-/* label underline focus color */
-    .input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]) {
-     border-bottom: 1px solid #2d3e50 !important;
-     box-shadow: 0 1px 0 0 #2d3e50 !important;
-    }
-
-  h6.list:hover {
-    color: #2C3E50 !important;
-  }
-
-  .btn:visited {
-  background-color: #2d3e50 !important;
-  }
-
-
-  .btn:hover {
-  background-color: #2d3e50 !important;
-  }
-
-  .btn:focus {
-  background-color: #2d3e50 !important;
-  }
-
-
-
-
-  .light-blue-hover:hover {
-    color: #0769ad;
-  }
-  a.btn{
-    background-color: #233140;
-  }
-  a.btn:visited{
-    background-color: #233140;
-  }
-  a.btn:hover {
-    background-color: #233140;
-  }
-  a.btn:active{
-    background-color: #233140;;
-  }
-
-  .stan-colors {
-    background-color: #d92231;
-    color:#f8f9fa ;
-
-  }
-
-  .bootstrap-colors {
-    color:#f8f9fa ;
-    background-color: #563d7c;
-  }
-
-  .arduino-colors {
-    color:#f8f9fa;
-    background-color: #00979d;
-  }
-
-  .materialize-colors {
-    color: #f8f9fa;
-    background-color: #ee6e73;
-  }
-
-  .node-colors {
-    color: #f8f9fa;
-    background-color: #026e00;
-  }
-
-  .jquery-colors {
-    color: #f8f9fa  ;
-    background-color: #0769ad;
-  }
-
-  .javascript-colors {
-    color: #313d38;
-    background-color: #e5bb31;
-
-}
-  .bg-1 {
-    background-image: url(images/sunset.jpg);
-
-    /* Background image is centered vertically and horizontally at all times */
- background-position: center center;
-
- /* Background image doesn't tile */
- background-repeat: no-repeat;
-
- /* Background image is fixed in the viewport so that it doesn't move when
-    the content's height is greater than the image's height */
- background-attachment: fixed;
-
- /* This is what makes the background image rescale based
-    on the container's size */
- background-size: cover;
-
- /* Set a background color that will be displayed
-    while the background image is loading */
- background-color: #2C3E50;
-  }
-
-  </style>
 
 
 
@@ -168,28 +20,9 @@ padding-top: 2%;
 
 <body>
 
-
-
-  <!--Navbar Code
-  <nav class="footer-color" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Solo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#portfolio" >Portfolio</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-
-      </ul>
-      <a href="resume.html" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-End of Navarbar code-->
   <div class="center-align" id="header">
-    <h1 class="header center white-text" style="padding-bottom:3%">John Solo</h1>
-    <h5 class="header light center white-text" style="padding-bottom:5%">Computer Science Undergraduate</h5>
+    <h1 class="header center white-text">John Solo</h1>
+    <h5 class="header light center white-text">Computer Science Undergraduate</h5>
 
 
 
@@ -873,6 +706,7 @@ End of Navarbar code-->
   <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/particles.js"></script>
   <script src="https://use.fontawesome.com/ba06f23458.js"></script>
 
   <script>
@@ -913,134 +747,7 @@ End of Navarbar code-->
     });
 
 
-    //Initialize Particle JS
-    particlesJS("particles-js", {
-      "particles": {
-        "number": {
-          "value": 80,
-          "density": {
-            "enable": true,
-            "value_area": 800
-          }
-        },
-        "color": {
-          "value": "#ffffff"
-        },
-        "shape": {
-          "type": "circle",
-          "stroke": {
-            "width": 0,
-            "color": "#000000"
-          },
-          "polygon": {
-            "nb_sides": 5
-          },
-          "image": {
-            "src": "img/github.svg",
-            "width": 100,
-            "height": 100
-          }
-        },
-        "opacity": {
-          "value": 0.5,
-          "random": false,
-          "anim": {
-            "enable": false,
-            "speed": 1,
-            "opacity_min": 0.1,
-            "sync": false
-          }
-        },
-        "size": {
-          "value": 3,
-          "random": true,
-          "anim": {
-            "enable": false,
-            "speed": 40,
-            "size_min": 0.1,
-            "sync": false
-          }
-        },
-        "line_linked": {
-          "enable": true,
-          "distance": 0,
-          "color": "#ffffff",
-          "opacity": 0.4,
-          "width": 1
-        },
-        "move": {
-          "enable": true,
-          "speed": 1.603412060865523,
-          "direction": "none",
-          "random": true,
-          "straight": false,
-          "out_mode": "out",
-          "bounce": false,
-          "attract": {
-            "enable": false,
-            "rotateX": 600,
-            "rotateY": 1200
-          }
-        }
-      },
-      "interactivity": {
-        "detect_on": "canvas",
-        "events": {
-          "onhover": {
-            "enable": false,
-            "mode": "bubble"
-          },
-          "onclick": {
-            "enable": false,
-            "mode": "push"
-          },
-          "resize": true
-        },
-        "modes": {
-          "grab": {
-            "distance": 400,
-            "line_linked": {
-              "opacity": 1
-            }
-          },
-          "bubble": {
-            "distance": 400,
-            "size": 40,
-            "duration": 2,
-            "opacity": 8,
-            "speed": 3
-          },
-          "repulse": {
-            "distance": 200,
-            "duration": 0.4
-          },
-          "push": {
-            "particles_nb": 4
-          },
-          "remove": {
-            "particles_nb": 2
-          }
-        }
-      },
-      "retina_detect": true
-    });
-    var count_particles, stats, update;
-    stats = new Stats;
-    stats.setMode(0);
-    stats.domElement.style.position = 'absolute';
-    stats.domElement.style.left = '0px';
-    stats.domElement.style.top = '0px';
-    document.body.appendChild(stats.domElement);
-    count_particles = document.querySelector('.js-count-particles');
-    update = function() {
-      stats.begin();
-      stats.end();
-      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-      }
-      requestAnimationFrame(update);
-    };
-    requestAnimationFrame(update);
+
   </script>
 
 

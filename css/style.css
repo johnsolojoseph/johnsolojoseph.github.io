@@ -1,29 +1,36 @@
-.waves-effect.waves-navy .waves-ripple {
-     /* The alpha value allows the text and background color
-     of the button to still show through. */
-      background-color: rgba(44, 62, 80, 1);
-    }
+body {
+  background-color: #fafafa;
+}
 
-a.btn{
+.waves-effect.waves-navy .waves-ripple {
+  /* The alpha value allows the text and background color
+     of the button to still show through. */
+  background-color: rgba(44, 62, 80, 1);
+}
+
+a.btn {
   background-color: #233140;
 }
-a.btn:visited{
+
+a.btn:visited {
   background-color: #233140;
 }
+
 a.btn:hover {
   background-color: #233140;
 }
-a.btn:active{
+
+a.btn:active {
   background-color: #233140;
 }
 
 .bootstrap-colors {
-  color:#f8f9fa ;
+  color: #f8f9fa;
   background-color: #563d7c;
 }
 
 .arduino-colors {
-  color:#f8f9fa;
+  color: #f8f9fa;
   background-color: #00979d;
 }
 
@@ -38,7 +45,7 @@ a.btn:active{
 }
 
 .jquery-colors {
-  color: #f8f9fa  ;
+  color: #f8f9fa;
   background-color: #0769ad;
 }
 
@@ -50,30 +57,39 @@ a.btn:active{
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
 }
+
 .navy-blue {
-	background-color: #2C3E50;
+  background-color: #2C3E50;
 }
+
 .blue-green {
-	background-color: #2f393c;
+  background-color: #2f393c;
 }
+
 .dark-blue-text {
-	color: #323232;
+  color: #323232;
 }
+
 .footer-color {
-	background-color: #233140;
+  background-color: #233140;
 }
 
 .modal {
-   width: 75% !important ; max-height: 100% !important
-} /* increase the width and height! */
+  width: 75% !important;
+  max-height: 100% !important
+}
 
+/* increase the width and height! */
 .modal-button {
-   width: 35% !important ; max-height: 35% !important
-} /* increase the width and height! */
+  width: 35% !important;
+  max-height: 35% !important
+}
 
+/* increase the width and height! */
 .list-inline {
   display: inline;
 }
@@ -83,42 +99,146 @@ a.btn:active{
 }
 
 .preloader-background {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #202020;
-	position: fixed;
-	z-index: 999;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202020;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
   p {
-    padding-top:120px;
+    padding-top: 120px;
     margin-left: -60px;
     opacity: 0.8;
   }
 }
 
-
 .blinking {
-	animation: blinker 0.5s linear infinite;
+  animation: blinker 0.5s linear infinite;
 }
+
 @keyframes blinker {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
+blockquote {
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #64b5f6;
+}
 
+#header {
+  position: absolute;
+  z-index: 998;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding-top: 2%;
+}
 
+.header {
+  padding-bottom:3%;
+}
 
-/*input search here */
-#myInput {
-    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-    background-position: 10px 12px; /* Position the search icon */
-    background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 80%; /* Full-width */
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
+.pad-bottom {
+  padding-bottom: 5%;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label, .materialize-textarea:focus:not([readonly])+label {
+  color: #2d3e50 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #2d3e50 !important;
+  box-shadow: 0 1px 0 0 #2d3e50 !important;
+}
+
+.input-field input[type=email]:focus+label, .materialize-textarea:focus:not([readonly])+label {
+  color: #2d3e50 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #2d3e50 !important;
+  box-shadow: 0 1px 0 0 #2d3e50 !important;
+}
+
+h6.list:hover {
+  color: #2C3E50 !important;
+}
+
+.btn:visited {
+  background-color: #2d3e50 !important;
+}
+
+.btn:hover {
+  background-color: #2d3e50 !important;
+}
+
+.btn:focus {
+  background-color: #2d3e50 !important;
+}
+
+.light-blue-hover:hover {
+  color: #0769ad;
+}
+
+.stan-colors {
+  background-color: #d92231;
+  color: #f8f9fa;
+}
+
+.bootstrap-colors {
+  color: #f8f9fa;
+  background-color: #563d7c;
+}
+
+.arduino-colors {
+  color: #f8f9fa;
+  background-color: #00979d;
+}
+
+.materialize-colors {
+  color: #f8f9fa;
+  background-color: #ee6e73;
+}
+
+.node-colors {
+  color: #f8f9fa;
+  background-color: #026e00;
+}
+
+.jquery-colors {
+  color: #f8f9fa;
+  background-color: #0769ad;
+}
+
+.javascript-colors {
+  color: #313d38;
+  background-color: #e5bb31;
+}
+
+.bg-1 {
+  background-image: url(../images/sunset.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when
+  the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+  on the container's size */
+  background-size: cover;
+  /* Set a background color that will be displayed
+  while the background image is loading */
+  background-color: #2C3E50;
 }
