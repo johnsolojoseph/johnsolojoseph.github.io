@@ -1,0 +1,124 @@
+.waves-effect.waves-navy .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(44, 62, 80, 1);
+    }
+
+a.btn{
+  background-color: #233140;
+}
+a.btn:visited{
+  background-color: #233140;
+}
+a.btn:hover {
+  background-color: #233140;
+}
+a.btn:active{
+  background-color: #233140;
+}
+
+.bootstrap-colors {
+  color:#f8f9fa ;
+  background-color: #563d7c;
+}
+
+.arduino-colors {
+  color:#f8f9fa;
+  background-color: #00979d;
+}
+
+.materialize-colors {
+  color: #f8f9fa;
+  background-color: #ee6e73;
+}
+
+.node-colors {
+  color: #f8f9fa;
+  background-color: #026e00;
+}
+
+.jquery-colors {
+  color: #f8f9fa  ;
+  background-color: #0769ad;
+}
+
+.javascript-colors {
+  color: #313d38;
+  background-color: #e5bb31;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.navy-blue {
+	background-color: #2C3E50;
+}
+.blue-green {
+	background-color: #2f393c;
+}
+.dark-blue-text {
+	color: #323232;
+}
+.footer-color {
+	background-color: #233140;
+}
+
+.modal {
+   width: 75% !important ; max-height: 100% !important
+} /* increase the width and height! */
+
+.modal-button {
+   width: 35% !important ; max-height: 35% !important
+} /* increase the width and height! */
+
+.list-inline {
+  display: inline;
+}
+
+.blue-custom {
+  background-color: #273849;
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #202020;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  p {
+    padding-top:120px;
+    margin-left: -60px;
+    opacity: 0.8;
+  }
+}
+
+
+.blinking {
+	animation: blinker 0.5s linear infinite;
+}
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+
+
+
+/*input search here */
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 80%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
