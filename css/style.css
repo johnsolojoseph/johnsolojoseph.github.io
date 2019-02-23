@@ -235,3 +235,7 @@ h6.list:hover {
   margin: 0 auto;
   padding-top: 2%;
 }
+
+.nav-list {
+  display: inline-block !important;
+}
