@@ -1,42 +1,44 @@
-(function($){
-  $(function(){
-
-    $('.button-collapse').sideNav();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
-
-$(document).ready(function(){
+//Initialize Modal
+$(document).ready(function() {
   // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
   $('.modal').modal();
 });
 
-$('ul.nav').find('a').click(function(){
-    var $href = $(this).attr('href');
-    var $anchor = $('#'+$href).offset();
-    window.scrollTo($anchor.left,$anchor.top);
-    return false;
+$('ul.nav').find('a').click(function() {
+  var $href = $(this).attr('href');
+  var $anchor = $('#' + $href).offset();
+  window.scrollTo($anchor.left, $anchor.top);
+  return false;
 });
 
+//Preloader
+document.addEventListener("DOMContentLoaded", function() {
+  $('.preloader-background').delay(1700).fadeOut('slow');
 
+  $('.preloader-wrapper')
+    .delay(1700)
+    .fadeOut();
+});
 
- //Search
+//Smooth scrolling
+$(document).ready(function() {
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function() {
 
- function myFunction() {
-     // Declare variables
-     var input, filter, ul, li, a, i;
-     input = document.getElementById('myInput');
-     filter = input.value.toUpperCase();
-     ul = document.getElementById("myUL");
-     li = ul.getElementsByTagName('li');
-
-     // Loop through all list items, and hide those who don't match the search query
-     for (i = 0; i < li.length; i++) {
-         a = li[i].getElementsByTagName("a")[0];
-         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-             li[i].style.display = "";
-         } else {
-             li[i].style.display = "none";
-         }
-     }
- }
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});

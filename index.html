@@ -14,7 +14,7 @@
 
   <style>
 
-  blockquote {
+    blockquote {
     margin: 20px 0;
     padding-left: 1.5rem;
     border-left: 5px solid #64b5f6;
@@ -88,6 +88,8 @@
     background-color: #563d7c;
   }
 
+
+
   .arduino-colors {
     color: #f8f9fa;
     background-color: #00979d;
@@ -113,6 +115,10 @@
     background-color: #e5bb31;
   }
 
+  .nav-list {
+    display: inline-block;
+  }
+
   .bg-1 {
     background-image: url('images/sunset.jpg');
     /* Background image is centered vertically and horizontally at all times */
@@ -128,6 +134,8 @@
     /* Set a background color that will be displayed
     while the background image is loading */
     background-color: #2C3E50;
+
+    padding-bottom:2%
   }
   </style>
 
@@ -137,32 +145,54 @@
 </head>
 
 <body>
+  <!-- Preloader and it's background. -->
+  <div class="preloader-background">
+    <div class="row">
+      <div class="s12 m12 l12 center preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <p class="s12 m12 l12 center-align white-text blinking">Loading</p>
+    </div>
+  </div>
+  <!--End of preloading -->
 
+  <!--Start of heading -->
   <div class="center-align" id="header">
     <h1 class="header center white-text">John Solo</h1>
     <h5 class="header light center white-text">Computer Science Undergraduate</h5>
 
 
-
+    <!--Navigation Menu -->
     <a href="#portfolio" target="_blank">
-      <h6 class="white-text list" style="display: inline-block;">Portfolio</h6>
+      <h6 class="white-text list nav-list">Portfolio</h6>
     </a>
 
-    <h6 class="dark-blue-text" style="display: inline-block;">|</h6>
+    <h6 class="dark-blue-text nav-list">|</h6>
     <a href="#about">
-      <h6 class="white-text list" style="display: inline-block;">About</h6>
+      <h6 class="white-text list nav-list">About</h6>
     </a>
-    <h6 class="dark-blue-text" style="display: inline-block;">|</h6>
+    <h6 class="dark-blue-text nav-list">|</h6>
     <a href="#contact">
-      <h6 class="white-text list" style="display: inline-block;">Contact</h6>
+      <h6 class="white-text list nav-list">Contact</h6>
     </a>
-
 
   </div>
+  <!--End of heading -->
 
 
-  <!--Introduction-->
-  <div class="section no-pad-bot bg-1" style="padding-bottom:2%" id="particles-js">
+  <!--ParticleJS effect-->
+  <div class="section no-pad-bot bg-1" id="particles-js">
     <div class="container">
       <br>
       <br><br>
@@ -174,7 +204,6 @@
   <div class="container">
     <div class="section">
       <h2 class="center-align dark-blue-text" id="portfolio">Portfolio</h2>
-
       <br>
       <!--   Project Section   -->
       <div class="row">
@@ -223,9 +252,6 @@
 
           </a>
         </div>
-
-
-
         <!--End of modal 3 -->
 
         <!--Modal 4-->
@@ -239,7 +265,6 @@
 
           </a>
         </div>
-
         <!--End of Modal 4-->
 
         <!--Modal 5-->
@@ -276,11 +301,9 @@
       <!--End of row -->
 
       <!--Modal1 Content -->
-
       <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h2 class="center-align">Social Media Site with AI Curated Content</h2>
-
 
           <br>
           <div class="center-align">
@@ -311,7 +334,6 @@
                 <a href="https://acantellano.github.io/" target="_blank">
                   <div class="chip flow-text bootstrap-colors">Anthony Cantellano</div>
                 </a>
-
               </div>
             </li>
             <br>
@@ -402,31 +424,24 @@
           </a>
         </div>
       </div>
-
       <!--End of Modal2 Content -->
 
       <!--Modal3 Content -->
       <div id="modal3" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h2 class="center-align">AWS Voice-Controlled Website</h2>
-
           <br>
-
           <div class="center-align">
             <a href="https://www.youtube.com/watch?v=T3q4rnve2qk" target="_blank">
               <img src="images/landingpage.png" class="responsive-img hoverable"></img>
             </a>
-
           </div>
           <br>
-
           <h6 class="flow-text center-align">
             • Created a voice controlled website aimed to help streamline checkups by allowing doctors to see a patient’s medical images and lab results while examining the patient <br>
             <br>
             • Developed website with Amazon Web Services, utilized API Gateway to expose DynamoDB database, and wrote Lambda functions for Alexa to interact with the website
           </h6>
-
-
           <ul class="center-align">
             <br>
             <li class="flow-text">Link:
@@ -434,7 +449,6 @@
               </strong>
             </li>
           </ul>
-
         </div>
         <div class="modal-footer">
           <a href="#!" class="modal-action modal-close waves-effect waves-navy waves-default btn-flat navy-blue white-text"><i class="fa fa-times"></i>
@@ -442,35 +456,23 @@
           </a>
         </div>
       </div>
-
       <!--End of Modal3 Content -->
-
       <!--Modal 4 Content -->
       <div id="modal4" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h2 class="center-align">Sales Future</h2>
-
           <br>
-
           <div class="center-align">
             <a href="SalesFuture/index.html" target="_blank">
               <img src="images/SalesLook.png" class="responsive-img hoverable"></img>
             </a>
-
           </div>
           <br>
-
           <h6 class="flow-text center-align">
             Realize the advantage of forecasting with Sales Future. With past and current data, develop a linear regression model to predict the sales for the next four quarters.
-
           </h6>
-
-
-
-
           <ul class="center-align">
             <br>
-
             <li class="flow-text">Built with:
               <br>
               <div class="center-align">
@@ -479,15 +481,13 @@
                 <div class="chip flow-text jquery-colors">jQuery</div>
               </div>
             </li>
-
             <br>
-
             <li class="flow-text">Website:
               <strong><a href="SalesFuture/index.html" target="_blank">Sales Future</a>
               </strong>
             </li>
           </ul>
-
+          <!--Modal Footer -->
         </div>
         <div class="modal-footer">
           <a href="#!" class="modal-action modal-close waves-effect waves-navy waves-default btn-flat navy-blue white-text"><i class="fa fa-times"></i>
@@ -495,34 +495,26 @@
           </a>
         </div>
       </div>
-
-
       <!--End of Modal 4 Content -->
 
       <!--Modal 5 Content -->
-
       <div id="modal5" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h2 class="center-align">Proxy</h2>
-
           <br>
-
           <div class="center-align">
             <a>
               <img src="images/chathistory.png" class="responsive-img hoverable"></img>
             </a>
-
           </div>
           <br>
-
+          <!--Text -->
           <h6 class="flow-text center-align">
             A simple discord chat bot. Online now! Add it to your server.
           </h6>
-
-
           <ul class="center-align">
             <br>
-
+            <!--List -->
             <li class="flow-text">Built with:
               <br>
               <div class="center-align">
@@ -539,7 +531,6 @@
               </strong>
             </li>
           </ul>
-
         </div>
         <div class="modal-footer">
           <a href="#!" class="modal-action modal-close waves-effect waves-navy waves-default btn-flat navy-blue white-text"><i class="fa fa-times"></i>
@@ -547,38 +538,26 @@
           </a>
         </div>
       </div>
-
       <!--End of Modal 5 Content -->
-
       <!-- Modal 6 Content -->
-
       <div id="modal6" class="modal modal-fixed-footer">
         <div class="modal-content">
           <h2 class="center-align">Calendar-Based Department Club Website</h2>
-
           <br>
-
           <div class="center-align">
             <a href="ClubWebsite/cs_club_website/index.html" target="_blank">
               <img src="images/stansplashart.png" class="responsive-img hoverable"></img>
             </a>
-
           </div>
           <br>
-
+          <!--Start of modal 6 text -->
           <h6 class="flow-text center-align">
             • Redesigned the UI using Materialize CSS, implementing a responsive page layout that renders well on a variety of screen sizes
             <br>• Integrated an event calendar system with Google Calendar API to increase social interaction among club members and highlight upcoming events
             <br>• Created a PHP modal form for students to sign up for the club, collecting over 100 responses
-
           </h6>
-
-
-
-
           <ul class="center-align">
             <br>
-
             <li class="flow-text">Built with:
               <br>
               <div class="center-align">
@@ -587,15 +566,12 @@
                 <div class="chip flow-text jquery-colors">jQuery</div>
               </div>
             </li>
-
             <br>
-
             <li class="flow-text">Website:
               <strong><a href="http://csclub.csustan.edu/" target="_blank">CS Club</a>
               </strong>
             </li>
           </ul>
-
         </div>
         <div class="modal-footer">
           <a href="#!" class="modal-action modal-close waves-effect waves-navy waves-default btn-flat navy-blue white-text"><i class="fa fa-times"></i>
@@ -603,24 +579,13 @@
           </a>
         </div>
       </div>
-
       <!--End of Modal 6 Content -->
 
-
     </div>
+    <!--End of section -->
     <br><br>
   </div>
   <!--End of portfolio -->
-
-
-  <!--
-  <div class="section navy-blue">
-    <div class="parallax-container">
-      <div class="parallax"><img src="images/sunset.jpg"></div>
-    </div>
-</div> -->
-  <!--End of section -->
-
 
   <!--About -->
   <div class="section no-pad-bot navy-blue">
@@ -628,37 +593,36 @@
       <h2 class="header center white-text pad-bottom" id="about">About</h2>
       <br>
 
-
-      <div class="row" style="padding-bottom:10%;">
+      <div class="row padding-bottom-10">
         <div class="col s12 m6 l6 center-align">
           <img alt="Default Picture" height="256" width="256" class="responsive-img pad-bottom circle center-align" src="images/profile.jpg">
         </div>
-        <div class="col s12 m6 l6">
 
+        <div class="col s12 m6 l6">
         </div>
 
+        <!--School section -->
         <div class="col s12 m6 l6">
           <blockquote>
-
             <h5 class="header light left-align white-text">School</h5>
-            <blockquote>
+          </blockquote>
         </div>
 
-
+        <!-- School name -->
         <div class="col s12 m6 l6">
           <h6 class="white-text left-align">California State University, Stanislaus</h6>
         </div>
 
-
+        <!--Skills section -->
         <div class="col s12 m6 l6">
           <blockquote>
-
             <h5 class="header light left-align white-text">Skills</h5>
-            <blockquote>
+          </blockquote>
         </div>
 
+        <!--Skill list -->
         <div class="col s12 m6 l6">
-          <div class="chip flow-text" style="background-color: #ce413f; color:#f7f7f7 ;">Java</div>
+          <div class="chip flow-text java-colors">Java</div>
           <div class="chip flow-text node-colors">Node.js</div>
           <div class="chip flow-text bootstrap-colors">Bootstrap</div>
           <div class="chip flow-text javascript-colors">JavaScript</div>
@@ -668,25 +632,11 @@
         </div>
 
       </div>
+      <!--End of row -->
     </div>
+    <!--End of container -->
   </div>
-
-
-
   <!--End of About -->
-
-
-
-  <!--Start of section -->
-  <!--
-<div class="section">
-<div class="parallax-container">
-  <div class="parallax"><img src="images/sunset.jpg"></div>
-</div>
-</div>
--->
-
-  <!--End of section -->
 
 
   <!--Contact Form -->
@@ -694,11 +644,10 @@
     <div class="container">
       <h2 class="center-align dark-blue-text" style="padding-bottom:7%;" id="contact">Contact</h2>
       <div class="row" style="padding-bottom:8%;">
-        <form class="col s12" method="post" name="contact_form" >
+        <form class="col s12" method="post" name="contact_form">
           <div class="row">
             <div class="input-field col s6">
               <input id="first_name" name="first_name" type="text">
-
               <label for="first_name">First Name</label>
             </div>
             <div class="input-field col s6">
@@ -706,34 +655,28 @@
               <label for="last_name">Last Name</label>
             </div>
           </div>
-
           <div class="row">
             <div class="input-field col s12">
               <input id="email" name="email" type="email">
               <label for="email">Email</label>
             </div>
           </div>
-
           <div class="row">
             <div class="input-field col s6">
               <input id="telephone" name="telephone" type="text">
               <label for="telephone">Phone Number</label>
             </div>
-
             <div class="input-field col s6">
               <input id="subject" name="subject" type="text">
               <label for="subject">Subject</label>
             </div>
           </div>
-
           <div class="row" style="padding-bottom:2%;">
             <div class="input-field col s12">
               <textarea id="message" name="message" class="materialize-textarea"></textarea>
               <label for="message">Message</label>
             </div>
           </div>
-
-
           <div class="row">
             <div class="input-field col s12 center">
               <button class="btn waves-light waves-effect footer-color" type="submit" id="submit" for="submit" name="action">Submit
@@ -741,18 +684,13 @@
               </button>
             </div>
           </div>
-
-
-
         </form>
       </div>
-
     </div>
   </div>
 
 
-  <!--End of contact form -->
-
+  <!--Footer -->
   <footer class="page-footer navy-blue">
     <div class="container">
       <div class="row">
@@ -761,20 +699,14 @@
           <p class="grey-text text-lighten-4">
             My name is John Solo. I'm pursuing a Bachelor's Degree in Computer Science
             at California State University, Stanislaus. </p>
-
-
         </div>
         <div class="col l3 s12">
-
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
             <li><a class="white-text" target="_blank" href="https://www.linkedin.com/in/johnsolojoseph/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-
             <li><a class="white-text" target="_blank" href="https://github.com/johnsolojoseph"><i class="fa fa-github-square" aria-hidden="true"></i> Github</a></li>
-
-
           </ul>
         </div>
       </div>
@@ -782,42 +714,12 @@
     <div class="footer-color">
       <div class="footer-copyright">
         <div class="container">
-          <a href="#header" style="color: white;"> <i class="fas fa-arrow-up"></i> Back to Top </a>
-
-
+          <a class="white-text" href="#header"> <i class="fas fa-arrow-up"></i> Back to Top </a>
         </div>
       </div>
     </div>
   </footer>
-
-  <!-- Preloader and it's background. -->
-  <div class="preloader-background">
-    <div class="row">
-      <div class="s12 m12 l12 center preloader-wrapper big active">
-        <div class="spinner-layer spinner-blue-only">
-          <div class="circle-clipper left">
-            <div class="circle"></div>
-          </div>
-          <div class="gap-patch">
-            <div class="circle"></div>
-          </div>
-          <div class="circle-clipper right">
-            <div class="circle"></div>
-          </div>
-        </div>
-
-
-
-
-
-      </div>
-      <br>
-      <p class="s12 m12 l12 center-align white-text blinking">Loading</p>
-    </div>
-
-  </div>
-  <!--End of preloading -->
-
+  <!--End of Footer -->
 
   <!--  Scripts-->
   <script src="js/particles.min.js"></script>
@@ -826,49 +728,6 @@
   <script src="js/init.js"></script>
   <script src="js/particles.js"></script>
   <script src="https://use.fontawesome.com/ba06f23458.js"></script>
-
-  <script>
-    $(document).ready(function() {
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function() {
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-    });
-
-
-
-    //Preload content from https://codepen.io/j_holtslander/pen/oeWddv
-    document.addEventListener("DOMContentLoaded", function() {
-      $('.preloader-background').delay(1700).fadeOut('slow');
-
-      $('.preloader-wrapper')
-        .delay(1700)
-        .fadeOut();
-    });
-
-
-
-  </script>
-
-
 
 </body>
 
