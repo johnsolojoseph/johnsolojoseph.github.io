@@ -13,7 +13,6 @@ canvas {
 }
 
 /* ---- particles.js container ---- */
-
 #particles-js {
   width: 100%;
   height: 100%;
@@ -117,6 +116,7 @@ nav ul li a:hover {
 .double-space {
   line-height: 2;
 }
+
 .emphasize {
   padding-bottom: 5px;
   font-weight: bold;
@@ -128,11 +128,26 @@ nav ul li a:hover {
   font-weight: bold;
   border-bottom: solid #f16c7a 7px;
 }
+
 .emphasize-yellow {
   padding-bottom: 5px;
   font-weight: bold;
   border-bottom: solid #f1dd38 7px;
 }
-.word-link {
+
+.word-link, .word-link-1 {
+  padding-top: 10px;
   color: inherit;
+}
+
+
+
+.word-link-1 {
+  margin-right: 30px;
+}
+
+.social-list {
+  padding-top: 30px;
+  color: white;
+  opacity: 0.9;
 }
