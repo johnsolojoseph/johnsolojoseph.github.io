@@ -7,3 +7,7 @@ function changeToGif(img, fileName) {
 function changeToPNG(img, fileName) {
   img.src = 'images/' + fileName + '.png';
 }
+
+function closeModal(modal) {
+  $(modal).modal('close');
+}

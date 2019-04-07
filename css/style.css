@@ -24,6 +24,7 @@ canvas {
   background-repeat: no-repeat;
 }
 
+
 .body-particles {
   position: absolute;
   top: 0;
@@ -154,4 +155,14 @@ nav ul li a:hover {
 
 .block-card {
   padding-bottom: 5%;
+}
+
+.modal-pic {
+  width: 200px;
+  height: 150px;
+  border: solid #202325 1px;
+}
+
+.x-modal:hover {
+  cursor: pointer;
 }
