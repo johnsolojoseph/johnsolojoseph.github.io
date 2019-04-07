@@ -1,24 +1,7 @@
-//Initialize Modal
-$(document).ready(function() {
-  // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-  $('.modal').modal();
-});
+M.AutoInit();
 
-$('ul.nav').find('a').click(function() {
-  var $href = $(this).attr('href');
-  var $anchor = $('#' + $href).offset();
-  window.scrollTo($anchor.left, $anchor.top);
-  return false;
-});
 
-//Preloader
-document.addEventListener("DOMContentLoaded", function() {
-  $('.preloader-background').delay(1700).fadeOut('slow');
 
-  $('.preloader-wrapper')
-    .delay(1700)
-    .fadeOut();
-});
 
 //Smooth scrolling
 $(document).ready(function() {
