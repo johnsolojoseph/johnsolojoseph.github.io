@@ -3,6 +3,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   line-height: 1.8em;
+  background-color: #202325;
 }
 
 canvas {
@@ -42,7 +43,9 @@ canvas {
 }
 
 .underline {
-  background: #2c3e50;
+  padding-bottom: 15px;
+  display: inline-block;
+  border-bottom: solid #39719e 10px;
 }
 
 h1 {
@@ -63,8 +66,18 @@ h3 {
 }
 
 nav {
-  background-color: #21272b;
+  background-color: transparent;
   box-shadow: none;
+}
+
+nav ul li a {
+  background-color: transparent;
+  opacity: 0.8;
+}
+
+nav ul li a:hover {
+  background-color: transparent;
+  opacity: 1;
 }
 
 .btn-list {
