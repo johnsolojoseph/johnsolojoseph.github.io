@@ -133,3 +133,6 @@ nav ul li a:hover {
   font-weight: bold;
   border-bottom: solid #f1dd38 7px;
 }
+.word-link {
+  color: inherit;
+}
