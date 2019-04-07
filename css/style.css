@@ -113,3 +113,23 @@ nav ul li a:hover {
   color: #202325;
   background-color: white;
 }
+
+.double-space {
+  line-height: 2;
+}
+.emphasize {
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-bottom: solid #39719e 7px;
+}
+
+.emphasize-red {
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-bottom: solid #f16c7a 7px;
+}
+.emphasize-yellow {
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-bottom: solid #f1dd38 7px;
+}
