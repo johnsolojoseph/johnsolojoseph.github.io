@@ -149,5 +149,9 @@ nav ul li a:hover {
 .social-list {
   padding-top: 30px;
   color: white;
-  opacity: 0.9;
+  opacity: 1;
+}
+
+.block-card {
+  padding-bottom: 5%;
 }
