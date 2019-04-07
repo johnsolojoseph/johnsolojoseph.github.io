@@ -21,6 +21,7 @@ canvas {
   background-color: #202325;
   background-repeat: no-repeat;
   background-size: cover;
+ min-height: 100%;
   background-position: 50% 50%;
   z-index: -100;
 }
