@@ -6,6 +6,10 @@ body {
   background-color: #202325;
 }
 
+.modal {
+  -webkit-overflow-scrolling: touch;
+}
+
 canvas {
   display: block;
   vertical-align: bottom;
@@ -23,7 +27,6 @@ canvas {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-
 
 .body-particles {
   position: absolute;
@@ -140,8 +143,6 @@ nav ul li a:hover {
   padding-top: 10px;
   color: inherit;
 }
-
-
 
 .word-link-1 {
   margin-right: 30px;
