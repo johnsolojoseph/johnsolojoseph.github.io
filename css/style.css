@@ -6,9 +6,7 @@ body {
   background-color: #202325;
 }
 
-.modal {
-  -webkit-overflow-scrolling: touch;
-}
+
 
 canvas {
   display: block;
