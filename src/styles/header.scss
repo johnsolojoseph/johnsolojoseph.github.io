@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & h1 {
+        color: white;
+        
+        &.name{
+            font-size: 40px;
+        }
+
+        &.title{
+            font-size: 32px;
+        }
+    }
+
+}
