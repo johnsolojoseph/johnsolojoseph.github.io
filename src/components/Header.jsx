@@ -16,7 +16,7 @@ function Header({name, title}){
             <h1 className="name">{name}</h1>
             <h1 className="title">{title}</h1>
             <div className="button-list">
-                <RoundedBtn text="my portfolio" />
+                <RoundedBtn text="my portfolio" link="/portfolio"/>
                 <RoundedBtn text="about me" link="/about"/>
             </div>
         </div>

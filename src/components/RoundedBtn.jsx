@@ -21,7 +21,7 @@ RoundedBtn.propTypes = {
 };
 RoundedBtn.defaultProps = {
   text: "default",
-  link: "/about",
+  link: "/",
 };
 
 export default RoundedBtn;

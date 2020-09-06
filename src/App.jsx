@@ -5,6 +5,7 @@ import './styles/app.scss';
 
 import Home from './components/Home';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
           </Route>
         </Switch>
       </BrowserRouter>
