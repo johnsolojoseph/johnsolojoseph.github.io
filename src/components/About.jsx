@@ -5,7 +5,7 @@ import NavBar from './NavBar';
 
 function About(){
     return(
-        <div className="about-me">
+        <div className="about-me container">
             <NavBar />
             About Me
         </div>

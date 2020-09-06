@@ -2,10 +2,11 @@
 
 .navbar{
     display: flex;
-    margin: 30px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 50px 50px;
     & ul {
         display: inline-flex;
-        float: right;
         list-style: none;
         text-decoration: none;
         gap: 30px;
@@ -23,5 +24,25 @@
 
             }
         }
+    }
+
+    & i{
+        font-size: 25px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .navbar ul.nav-desktop-ul{
+      display: none;
+    }
+}
+
+@media (min-width: 1023px) {
+    .navbar i{
+      display: none;
     }
 }

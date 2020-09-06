@@ -7,7 +7,7 @@ function NavBar(){
     return(
         <div className="navbar">
             <nav>
-                <ul>
+                <ul className="nav-desktop-ul">
                     <li>
                         <Link to="/">Home</Link>
                     </li>
@@ -15,9 +15,10 @@ function NavBar(){
                         <Link to="/portfolio">Portfolio</Link>
                     </li>
                     <li>
-                        <Link to="/portfolio">About</Link>
+                        <Link to="/about">About</Link>
                     </li>
                 </ul>
+                <i className="fas fa-bars" />
             </nav>
         </div>
     );
