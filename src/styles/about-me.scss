@@ -1,0 +1,13 @@
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+
+    & a{
+        color: white;
+        text-decoration: none;
+    }
+
+}
