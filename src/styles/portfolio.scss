@@ -25,12 +25,14 @@
     .column {
         flex: 33.33%;
     }
+    
+
   }
 
 @media (max-width: 1024px) {
     .projects{
       flex-flow: column nowrap;
-      margin: 30px 30px 150px 20px;
+      margin: 30px 60px 150px 40px;
       gap: 40px;
     }
   }
