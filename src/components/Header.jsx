@@ -8,6 +8,7 @@ import RoundedBtn from './RoundedBtn';
 
 
 
+
 function Header({name, title}){
     return(
         <div className="header">
@@ -16,7 +17,7 @@ function Header({name, title}){
             <h1 className="title">{title}</h1>
             <div className="button-list">
                 <RoundedBtn text="my portfolio" />
-                <RoundedBtn text="about me" />
+                <RoundedBtn text="about me" link="/about"/>
             </div>
         </div>
     

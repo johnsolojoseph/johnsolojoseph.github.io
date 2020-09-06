@@ -1,13 +1,16 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import '../styles/rounded-btn.scss';
 
 function RoundedBtn({text, link}){
     return(
         <div className="rounded-btn">
-          <button type="button">
-              {text}
-          </button>
+            <Link to={link}>
+                <button type="button">
+                    {text}
+                </button>
+            </Link>
         </div>
     );
 }
@@ -18,7 +21,7 @@ RoundedBtn.propTypes = {
 };
 RoundedBtn.defaultProps = {
   text: "default",
-  link: "/",
+  link: "/about",
 };
 
 export default RoundedBtn;
