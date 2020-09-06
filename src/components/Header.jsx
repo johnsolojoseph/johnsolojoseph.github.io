@@ -11,7 +11,7 @@ import RoundedBtn from './RoundedBtn';
 function Header({name, title}){
     return(
         <div className="header">
-            <ProfilePic avatarUrl={avatarUrl} alt="Self portrait of John in Last Bookstore" />
+            <ProfilePic avatarUrl={avatarUrl} alt="John in Last Bookstore" />
             <h1 className="name">{name}</h1>
             <h1 className="title">{title}</h1>
             <div className="button-list">
