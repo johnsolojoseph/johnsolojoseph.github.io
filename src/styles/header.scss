@@ -23,12 +23,13 @@
     & .button-list{
         display: inline-flex;
         flex-wrap: wrap;
+        margin-top: 30px;
         gap: 50px;
     }
 
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 360px){
     .button-list{
         display: flex;
         align-items: center;

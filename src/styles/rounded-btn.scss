@@ -1,7 +1,7 @@
 @import 'variables';
 
 .rounded-btn {
-    & button {
+    & a {
         background-color: transparent;
         color: white;
         border-radius: 40px;
@@ -9,8 +9,7 @@
         font-size: 16px;
         padding: 15px 30px;
         justify-content: space-between;
-        cursor: pointer;
-        outline: none;
+        text-decoration: none;
 
         &:hover{
             background-color: white;

@@ -1,0 +1,27 @@
+@import "variables";
+
+.navbar{
+    display: flex;
+    margin: 30px;
+    & ul {
+        display: inline-flex;
+        float: right;
+        list-style: none;
+        text-decoration: none;
+        gap: 30px;
+        
+
+        & li {
+            & a {
+                color: $grey;
+                text-decoration: none;
+
+                &:hover{
+                    color: white;
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+}

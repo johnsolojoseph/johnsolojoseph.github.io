@@ -7,9 +7,7 @@ function RoundedBtn({text, link}){
     return(
         <div className="rounded-btn">
             <Link to={link}>
-                <button type="button">
-                    {text}
-                </button>
+                {text}
             </Link>
         </div>
     );
