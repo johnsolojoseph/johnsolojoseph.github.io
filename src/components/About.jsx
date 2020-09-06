@@ -13,7 +13,7 @@ function About(){
             />
 
             <WordBlock
-            text="Connect with Me"
+            text="Connect"
             />
 
             <div className="social-media">

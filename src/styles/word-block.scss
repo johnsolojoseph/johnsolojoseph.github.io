@@ -1,7 +1,8 @@
 @import "variables";
 .word-block h1{
     font-size: 40px;
-    display: inline-block;
+    display: inline-flex;
+    flex-wrap: wrap;
     padding-bottom: 15px;
 }
 

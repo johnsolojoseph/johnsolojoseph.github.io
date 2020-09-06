@@ -47,7 +47,7 @@ function Canvas(){
               }
           },
           "retina_detect": true
-      }} />
+        }} />
     );
 }
 
