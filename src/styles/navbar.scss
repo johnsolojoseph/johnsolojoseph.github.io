@@ -35,13 +35,13 @@
     }
 }
 
-@media (max-width: 1022px) {
+@media screen and (max-width: 1023px) {
     .navbar ul.nav-desktop-ul{
       display: none;
     }
 }
 
-@media (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
     .navbar i{
       display: none;
     }

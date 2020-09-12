@@ -4,7 +4,7 @@ import '../styles/project.scss';
 
 import Modal from './Modal';
 
-function Project({title, description, imageUrl, alt}){
+function Project({title, description, imageUrl}){
     const[showModal, setShowModal] = useState(false);
 
     function toggle(){
@@ -20,7 +20,7 @@ function Project({title, description, imageUrl, alt}){
             onClick={toggle} 
             onKeyDown={toggle} 
             tabIndex={0}>
-                <img src={imageUrl} alt={alt}/>
+                <img src={imageUrl} alt=""/>
             </div>
 
             <Modal 
