@@ -12,6 +12,11 @@ body {
   margin-left: auto;
 }
 
+.padded-sides {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
 @media (min-width: 576px) {
   .container{
     max-width: 540px;

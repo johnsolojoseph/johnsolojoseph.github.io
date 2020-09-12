@@ -5,7 +5,7 @@ import '../styles/word-block.scss';
 
 function WordBlock({text, color}){
     return(
-        <div className="word-block">
+        <div className="word-block padded-sides">
             <h1 className={color}>
                 {text}
             </h1>

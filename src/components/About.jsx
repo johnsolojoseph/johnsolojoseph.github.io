@@ -3,6 +3,7 @@ import '../styles/about-me.scss';
 
 import NavBar from './NavBar';
 import WordBlock from './WordBlock';
+import AboutText from './AboutText';
 
 function About(){
     return(
@@ -11,6 +12,11 @@ function About(){
             <WordBlock
             text="About Me"
             />
+            <AboutText> 
+                Hi, I&apos;m John Solo!
+                <span role="img" aria-label="Hand Wave">👋</span> 
+                I’m a Software Engineer from California, and my main technical focuses are full-stack web development and cloud infrastructure.
+            </AboutText>
 
             <WordBlock
             text="Connect"

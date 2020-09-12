@@ -7,7 +7,7 @@ function Modal({showModal, toggle, title, description, imageUrl}){
     return(
 
         <div className={`modal ${show}`}>
-            <div className="modal-main container">
+            <div className="modal-main container padded-sides">
                 <button type="button" onClick={toggle}>
                     <i className="fas fa-times fa-5x" />
                 </button>
