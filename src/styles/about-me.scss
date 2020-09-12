@@ -1,12 +1,13 @@
 .social-media {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 30px;
     margin: 40px;
 
     & a{
         color: white;
+        margin-right: 40px;
         text-decoration: none;
     }
 
