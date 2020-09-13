@@ -4,6 +4,9 @@ import './styles/index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import 'pace-js'
+import 'pace-js/themes/blue/pace-theme-minimal.css'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
