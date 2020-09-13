@@ -1,0 +1,99 @@
+@import "variables";
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 50px 50px;
+    & ul {
+        display: inline-flex;
+        list-style: none;
+        text-decoration: none;
+        margin: -20px;
+        
+
+        & li {
+            & a {
+                color: $grey;
+                text-decoration: none;
+                margin: 20px;
+                font-size: 24px;
+                &:hover{
+                    color: white;
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+
+    & i{
+        font-size: 30px;
+        outline: none;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    
+}
+
+.side-nav {
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+
+    & i {
+        color: $grey;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        margin: 30px;
+        font-size: 50px;
+        &:hover{
+            color: $base_color;
+        }
+    }
+
+    & ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 150px;
+        margin: -30px 0px;
+        & li{
+            margin: 30px 0px;
+            &  a{
+                font-size: 30px;
+                
+                &:hover{
+                    color: $base_color;
+                }
+            }
+            
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 1023px) {
+    .navbar ul.nav-desktop-ul{
+      display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .burger{
+      display: none;
+    }
+}

@@ -1,0 +1,19 @@
+@import "variables";
+.word-block h1{
+    font-size: 40px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.blue {
+    border-bottom: solid $blue 10px;
+}
+
+.red {
+    border-bottom: solid $red 10px;
+}
+
+.yellow {
+    border-bottom: solid $yellow 10px;
+}

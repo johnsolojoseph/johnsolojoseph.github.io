@@ -1,0 +1,42 @@
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    margin: -20px;
+
+    & > * {
+        margin: 20px;
+    }
+
+    & .column {
+        flex: 23.33%;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    & img{
+        width: 100%;
+        height: auto;    
+    }
+    
+}
+
+@media (max-width: 1400px) {
+    .column {
+        flex: 33.33% !important;
+    }
+    
+
+  }
+
+@media (max-width: 1024px) {
+    .projects{
+        padding: 0px;
+        flex-flow: column nowrap;
+        margin: 30px 60px 150px 40px;
+    }
+  }
