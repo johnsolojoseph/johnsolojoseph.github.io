@@ -13,10 +13,10 @@ function AboutText({children}){
 }
 
 AboutText.propTypes = {
-    children: PropTypes.string,
+    children: PropTypes.element,
   };
 AboutText.defaultProps = {
-    children: '',
+    children: [],
   };
 
 export default AboutText;

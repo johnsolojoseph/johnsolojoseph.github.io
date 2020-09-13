@@ -18,6 +18,10 @@ function About(){
                 I’m a Software Engineer from California, and my main technical focuses are full-stack web development and cloud infrastructure.
             </AboutText>
 
+            <AboutText>
+                If you have any questions or want to discuss future opportunities, please feel free to reach out!
+            </AboutText>
+
             <WordBlock
             text="Connect"
             />

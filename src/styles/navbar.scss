@@ -9,13 +9,14 @@
         display: inline-flex;
         list-style: none;
         text-decoration: none;
-        gap: 30px;
+        margin: -20px;
         
 
         & li {
             & a {
                 color: $grey;
                 text-decoration: none;
+                margin: 20px;
                 font-size: 24px;
                 &:hover{
                     color: white;
@@ -54,8 +55,8 @@
         color: $grey;
         position: absolute;
         top: 0;
-        right: 15px;
-        margin: 50px;
+        right: 10px;
+        margin: 30px;
         font-size: 50px;
         &:hover{
             color: $base_color;
@@ -66,12 +67,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 150px;
         text-align: center;
-
+        padding-top: 150px;
+        margin: -30px 0px;
         & li{
+            margin: 30px 0px;
             &  a{
                 font-size: 30px;
+                
                 &:hover{
                     color: $base_color;
                 }
@@ -82,11 +85,8 @@
     
 }
 
-.mobile-container {
-    margin: 30px;
-}
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .navbar ul.nav-desktop-ul{
       display: none;
     }

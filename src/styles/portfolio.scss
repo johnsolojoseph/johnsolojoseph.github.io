@@ -3,8 +3,12 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 50px 50px 150px 50px;
-    gap: 50px;
+    padding: 20px 30px;
+    margin: -20px;
+
+    & > * {
+        margin: 20px;
+    }
 
     & .column {
         flex: 23.33%;
@@ -31,8 +35,8 @@
 
 @media (max-width: 1024px) {
     .projects{
-      flex-flow: column nowrap;
-      margin: 30px 60px 150px 40px;
-      gap: 40px;
+        padding: 0px;
+        flex-flow: column nowrap;
+        margin: 30px 60px 150px 40px;
     }
   }

@@ -25,7 +25,7 @@ function Portfolio(){
                 <div className="column">
                     <Project
                     imageUrl={socialMapsImg}
-                    title="Social CrowdMapping"
+                    title="Social Crowdmapping"
                     description="
                     Created a community-driven map with location-dependent data using Google Maps API and Firebase. 
                     Optimized update and delete operations by implementing a HashMap to store map marker objects"
@@ -68,6 +68,7 @@ function Portfolio(){
                 </div>
                 
             </div>
+            
         </div>
     );
 }

@@ -20,7 +20,7 @@
     }
 
     & img {
-        width: 300px;
+        max-width: 300px;
         height: auto;
     }
 }
@@ -43,8 +43,13 @@
         justify-content: center;
         text-align: center;
         color: $light_grey;
-        gap: 30px;
         margin-bottom: 40px;
+
+        margin: -30px 0px;
+
+        & > * {
+            margin: 30px 0px;
+        }
 
         & h2{
             font-size: 40px;
