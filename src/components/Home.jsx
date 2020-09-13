@@ -7,7 +7,7 @@ import Canvas from './Canvas';
 
 function Home(){
     return(
-        <div className="home">
+        <div className="home Fade">
             <Header 
             name="John Solo"
             title="Software Engineer"
