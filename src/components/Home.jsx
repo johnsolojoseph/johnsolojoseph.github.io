@@ -3,6 +3,8 @@ import '../styles/home.scss';
 
 import Header from './Header';
 
+import Canvas from './Canvas';
+
 function Home(){
     return(
         <div className="home">
@@ -10,6 +12,8 @@ function Home(){
             name="John Solo"
             title="Software Engineer"
             />
+
+            <Canvas />
         </div>
     );
 }
