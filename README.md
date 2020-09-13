@@ -1,31 +1,73 @@
 # johnsolojoseph.github.io :computer: :heartpulse:
-A portfolio showcasing my programming projects and experience in one single page.
+A portfolio showcasing my programming projects and experience.
 
 Check it out [here](https://johnsolojoseph.github.io)!
 <br />
 <br />
 
-## Screenshot of Web App
-![Portfolio](assets/landing.png)
+## Screen Capture of Web App
+![Portfolio](https://raw.githubusercontent.com/johnsolojoseph/johnsolojoseph.github.io/master/src/assets/portfolio.gif)
 
 <br />
 
-## Technologies Used
+## Built With
 
-- Header section made with [Particle.js](https://vincentgarreau.com/particles.js/)
-- CSS Framework [Materialize](https://materializecss.com/)
+- Sass
+- React
 - Icons [Font Awesome](https://fontawesome.com/icons)
+- Landing page made with [Particle.js](https://vincentgarreau.com/particles.js/)
 
 <br />
 <br />
 
-## To Do
+<!-- GETTING STARTED -->
+## Getting Started
+Here are some steps to get this project running locally
 
-- Utilize GitHub's API to dynamically load repos
-- Replace Contact Form with a demo reel
-- Add more pictures and experience on About section
+### Prerequisites
 
-<br />
+* npm
+* git
+
+### Run locally 
+
+#### Clone repo
+
+```
+git clone https://github.com/johnsolojoseph/johnsolojoseph.github.io.git
+cd johnsolojoseph.github.io
+```
+
+#### Install dependencies
+
+```
+npm install 
+```
+
+#### Run your development server
+
+```
+npm start
+```
+
+### Deploy to github pages
+
+#### Change ```package.json``` homepage to point to yours
+
+```
+"homepage": <YOUR-GITHUB-PAGE>,
+```
+
+#### Deploy
+
+```
+npm run deploy
+```
+
+Make sure that your github page source in settings points to the ```gh-pages``` branch
+
+Enjoy!
+
 
 
 ## Note
