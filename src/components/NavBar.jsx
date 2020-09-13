@@ -34,7 +34,7 @@ function NavBar(){
             <div className="side-nav" style={{width:`${ navWidth }%`}}>
                 <div className="mobile-container ">
                     <i className="fas fa-times" onClick={() => setNavWidth(0)} onKeyDown={() => handleKeyDown(0)} role="button" tabIndex="-1"/>
-                    <ul className="nav-mobile-ul">
+                    <ul className="nav-mobile-ul padded-sides">
                         <li>
                             <NavLink to="/">Home</NavLink>
                         </li>
