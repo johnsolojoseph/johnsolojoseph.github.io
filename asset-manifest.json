@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.52a69cff.chunk.css",
+    "main.js": "/static/js/main.ca9f071d.chunk.js",
+    "main.js.map": "/static/js/main.ca9f071d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.44590b1e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.44590b1e.js.map",
+    "static/js/2.059e4ed4.chunk.js": "/static/js/2.059e4ed4.chunk.js",
+    "static/js/2.059e4ed4.chunk.js.map": "/static/js/2.059e4ed4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.165331155bf65970ba8dcbae5b7e0341.js": "/precache-manifest.165331155bf65970ba8dcbae5b7e0341.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.52a69cff.chunk.css.map": "/static/css/main.52a69cff.chunk.css.map",
+    "static/js/2.059e4ed4.chunk.js.LICENSE.txt": "/static/js/2.059e4ed4.chunk.js.LICENSE.txt",
+    "static/media/csclub.png": "/static/media/csclub.ceabcc52.png",
+    "static/media/hi-lite.png": "/static/media/hi-lite.a51421fc.png",
+    "static/media/imagebox.png": "/static/media/imagebox.6c221439.png",
+    "static/media/picto-find.png": "/static/media/picto-find.6f7c8646.png",
+    "static/media/profile.jpg": "/static/media/profile.6240e07e.jpg",
+    "static/media/socialmaps.png": "/static/media/socialmaps.ab7f2ecb.png",
+    "static/media/youtube-socket.png": "/static/media/youtube-socket.76f7634a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44590b1e.js",
+    "static/js/2.059e4ed4.chunk.js",
+    "static/css/main.52a69cff.chunk.css",
+    "static/js/main.ca9f071d.chunk.js"
+  ]
+}
