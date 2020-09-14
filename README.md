@@ -1,7 +1,7 @@
 # johnsolojoseph.github.io :computer: :heartpulse:
 A portfolio showcasing my programming projects and experience.
 
-Check it out [here](https://johnsolojoseph.github.io)!
+Check it out [here](https://johnjsolo.com)!
 <br />
 <br />
 
