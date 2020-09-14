@@ -1,4 +1,4 @@
-# johnsolojoseph.github.io :computer: :heartpulse:
+# Portfolio :computer: :heartpulse:
 A portfolio showcasing my programming projects and experience.
 
 Check it out [here](https://johnjsolo.com)!
@@ -16,8 +16,8 @@ Check it out [here](https://johnjsolo.com)!
 - React
 - Icons [Font Awesome](https://fontawesome.com/icons)
 - Landing page made with [Particle.js](https://vincentgarreau.com/particles.js/)
-
-<br />
+- Continuous deployment [Netlify](https://www.netlify.com/)
+- Page loading with HubSpot's [Pace.js](https://github.hubspot.com/pace/docs/welcome/)
 <br />
 
 <!-- GETTING STARTED -->
@@ -68,7 +68,7 @@ Make sure that your github page source in settings points to the ```gh-pages``` 
 
 Enjoy!
 
-
+<br />
 
 ## Note
 Feel free to use my code for your own portfolio!
